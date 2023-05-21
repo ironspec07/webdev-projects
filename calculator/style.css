@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+body{
+  background: url('background.jpg');
+}
+.calculator {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  table {
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  
+  button {
+    width: 117px;
+    height: 71px;
+    font-size: 40px;
+    background-color: #bcb5b5;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 1px #2a0e0e;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:grey ;
+    color: aliceblue;
+  }
+  
+  #result {
+    width: 95%;
+    height: 91px;
+    font-size: 50px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: #bcb5b5; 
+    border-radius: 10px;
+    padding-right: 0px;
+    margin-left: 10px;
+  }
+  .heading{
+    text-align: center;
+    font-family: 'Sigmar', cursive;
+    background-color: #bcb5b5;
+    
+  }
