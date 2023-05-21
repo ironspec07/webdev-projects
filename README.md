@@ -1,2 +1,2 @@
 # webdev-projects
-frontend webdevelopment projects
+frontend web development projects
