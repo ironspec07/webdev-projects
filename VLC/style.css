@@ -1,7 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    background: rgb(238,238,238);
+}
 header{
     /* background: red; */
-    height: 5rem;
+    height: 3rem;
 }
 /* ******************title********************** */
 .titlebar{
@@ -29,11 +33,13 @@ header{
 }
 /* *******************main******************* */
 main{
-    height: 36.9rem;
     background: black;
+    height: calc(100vh - 7rem);
 }
 /* *******************footer******************* */
 footer{
-    height: 3rem;
-    background: grey;
+    height: 4rem;
+}
+menu-items{
+    background: rgb(238,238,238);
 }
