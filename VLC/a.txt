@@ -1,0 +1,14 @@
+const speeddownHandler = function (){
+    alert("speed down clicked");
+}
+speedDown.addEventListener("click",speeddownHandler);
+
+const volupHandler = function (){
+    alert("speed up clicked");
+}
+volUp.addEventListener("click",volupHandler);
+
+const voldownHandler = function (){
+    alert("speed up clicked");
+}
+volDown.addEventListener("click",voldownHandler);

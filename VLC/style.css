@@ -31,15 +31,46 @@ header{
     margin-left: 0.5rem;
     /* outline: 4px solid green; */
 }
+.menu-items{
+    background: rgb(238,238,238);
+    position: absolute;
+    top: 2px;
+    width: 7rem;
+    display: none;
+}
+.menu-btn:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+.menu:hover .menu-items{
+    display: block;
+}
+li{
+    padding: 0.25rem;
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(213, 211, 211);
+}
+.menu{
+    position: relative;
+}
+.video-file{
+    display: none;
+}
 /* *******************main******************* */
 main{
     background: black;
     height: calc(100vh - 7rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    height: 100%;
 }
 /* *******************footer******************* */
 footer{
     height: 4rem;
-}
-menu-items{
-    background: rgb(238,238,238);
 }
