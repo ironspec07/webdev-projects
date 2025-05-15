@@ -34,7 +34,7 @@ header{
 .menu-items{
     background: rgb(238,238,238);
     position: absolute;
-    top: 2px;
+    top: 1.75px;
     width: 7rem;
     display: none;
 }
@@ -69,6 +69,14 @@ main{
 
 .video{
     height: 100%;
+}
+.toast{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    top: 50px;
+    right: 120px;
 }
 /* *******************footer******************* */
 footer{
